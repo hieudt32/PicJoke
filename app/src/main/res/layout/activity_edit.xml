@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/edit_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="funia.maker.pip.picjoke.scopic.activity.EditActivity">
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_bottom_edit">
+
+        <RelativeLayout
+            android:id="@+id/rlImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <funia.maker.pip.picjoke.scopic.view.SolShapeView
+                android:id="@+id/solShapeView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:id="@+id/imv_pic_joke"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/des_imv_picjoke" />
+
+            <ImageView
+                android:id="@+id/imv_watermark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/imv_pic_joke"
+                android:layout_alignEnd="@id/imv_pic_joke"
+                android:layout_alignRight="@id/imv_pic_joke"
+                android:adjustViewBounds="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/imb_done_edit"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/item_imb_main"
+        android:contentDescription="@string/des_done"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_done" />
+
+    <ImageButton
+        android:id="@+id/imb_back_edit"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/imb_done_edit"
+        android:layout_toStartOf="@id/imb_done_edit"
+        android:background="@drawable/item_imb_main"
+        android:contentDescription="@string/des_close"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_hide_template" />
+
+    <FrameLayout
+        android:id="@+id/frLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/pic_joke_blue_dark"
+        android:visibility="invisible">
+
+        <ImageView
+            android:id="@+id/imgLoading"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/des_imv_wait"
+            android:src="@drawable/ic_action_waiting" />
+
+    </FrameLayout>
+</RelativeLayout>

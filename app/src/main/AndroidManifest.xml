@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="funia.maker.pip.picjoke.scopic">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:authorities="funia.maker.pip.picjoke.scopic.provider"
+            android:name="android.support.v4.content.FileProvider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/path" />
+        </provider>
+        <activity
+            android:name="funia.maker.pip.picjoke.scopic.activity.FrameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="funia.maker.pip.picjoke.scopic.activity.EditActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="funia.maker.pip.picjoke.scopic.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="funia.maker.pip.picjoke.scopic.activity.CropImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="funia.maker.pip.picjoke.scopic.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="funia.maker.pip.picjoke.scopic.activity.GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="funia.maker.pip.picjoke.scopic.activity.ShareActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="funia.maker.pip.picjoke.scopic.activity.MoreAppActivity" />
+    </application>
+
+</manifest>

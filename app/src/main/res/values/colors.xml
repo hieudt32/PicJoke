@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01e0f5</color>
+    <color name="colorPrimaryDark">#01e0f5</color>
+    <color name="colorAccent">#01e0f5</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="pic_joke_accent">#00b9f2</color>
+    <color name="pic_joke_blue_light">#0687af</color>
+    <color name="pic_joke_blue_dark">#323943</color>
+
+    <color name="pic_joke_blue">#01e0f5</color>
+    <color name="pic_joke_white">#FFFFFF</color>
+    <color name="pic_joke_black">#111111</color>
+    <color name="pic_joke_overlay">#AA1C1C1C</color>
+    <color name="pic_joke_50_orange">#aaffb300</color>
+    <color name="pic_joke_50_yellow">#aaffdd00</color>
+    <color name="pic_joke_50_red">#9e0202</color>
+
+    <color name="pic_joke_65_blue">#6500b9f2</color>
+    <color name="pic_joke_50_black">#50000000</color>
+    <color name="pic_joke_50_white">#50FFFFFF</color>
+    <color name="pic_joke_90_black">#bb000000</color>
+
+    <color name="font_dialog_alert_title">#ff939498</color>
+    <color name="stroke_dialog_divid">#ffe6e9f1</color>
+    <color name="font_dialog_alert_message">#ff282a31</color>
+</resources>

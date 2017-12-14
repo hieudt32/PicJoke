@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "63524627604",
+    "firebase_url": "https://picjoke-8f8c3.firebaseio.com",
+    "project_id": "picjoke-8f8c3",
+    "storage_bucket": "picjoke-8f8c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63524627604:android:c859c01ae880b5f1",
+        "android_client_info": {
+          "package_name": "funia.maker.pip.picjoke.scopic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63524627604-csuom729prsel1lna1n47bli28sbass3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPU10u3svn8vMz5AW8nFYJiBvyRIxFLns"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

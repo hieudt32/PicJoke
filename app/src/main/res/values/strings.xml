@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PicJoke</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="billboard">Billboard</string>
+    <string name="photo_frame">Photo Frame</string>
+    <string name="happy_birthday">Happy Birthday</string>
+    <string name="magazine">Magazine</string>
+    <string name="fruit">Fruit</string>
+    <string name="money">Money</string>
+
+
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="title_dialog">Take photo from</string>
+    <string name="des_camera">Camera</string>
+    <string name="des_album">Album</string>
+    <string name="des_template">Template</string>
+    <string name="des_back">Back</string>
+    <string name="des_close">Close</string>
+    <string name="des_done">Done</string>
+    <string name="des_rotate_right">Rotate right</string>
+    <string name="des_rotate_left">Rotate left</string>
+    <string name="des_flip_vertical">Flip vertical</string>
+    <string name="des_flip_horizontal">Flip horizontal</string>
+    <string name="des_imv_gallery">Item gallery</string>
+    <string name="des_imv_picjoke">Frame</string>
+    <string name="des_imv_wait">Waiting</string>
+
+
+    <string name="id_unit_gg_native_large">ca-app-pub-9530168898799729/1547056296</string>
+    <string name="id_unit_gg_interstitial">ca-app-pub-9530168898799729/4500522691</string>
+    <string name="id_app_pic_joke">ca-app-pub-9530168898799729~9070323092</string>
+    <string name="id_device_test_gg">10E1CCB0937398772655252F20CD34C9</string>
+</resources>

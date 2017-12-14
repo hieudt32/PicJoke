@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pic_joke_black"
+    tools:context="funia.maker.pip.picjoke.scopic.activity.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/rl_top_main"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true">
+
+        <ImageButton
+            android:id="@+id/imb_more_app"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_imb_main"
+            android:src="@drawable/ic_more_app" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom_main"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true">
+
+        <View
+            android:id="@+id/vi_center_bottom"
+            android:layout_width="1dp"
+            android:layout_height="72dp"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp" />
+
+        <View
+            android:id="@+id/vi_left_bottom"
+            android:layout_width="1dp"
+            android:layout_height="72dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/vi_center_bottom"
+            android:layout_toStartOf="@id/vi_center_bottom" />
+
+        <View
+            android:id="@+id/vi_right_bottom"
+            android:layout_width="1dp"
+            android:layout_height="72dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/vi_center_bottom"
+            android:layout_toRightOf="@id/vi_center_bottom" />
+
+        <ImageButton
+            android:id="@+id/imb_gallery"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/vi_left_bottom"
+            android:layout_toRightOf="@id/vi_left_bottom"
+            android:alpha="0.6"
+            android:background="@drawable/item_imb_main"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_gallery" />
+
+        <ImageButton
+            android:id="@+id/imb_create"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/vi_right_bottom"
+            android:layout_toStartOf="@id/vi_right_bottom"
+            android:background="@drawable/item_imb_main"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_create" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_native_ads"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_bottom_main"
+        android:layout_below="@id/rl_top_main">
+
+        <com.google.android.gms.ads.NativeExpressAdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/native_add_gg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            ads:adSize="500x500"
+            ads:adUnitId="@string/id_unit_gg_native_large" />
+    </RelativeLayout>
+</RelativeLayout>

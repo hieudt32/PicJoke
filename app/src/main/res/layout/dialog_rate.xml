@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dear user, your 5 stars ratings and g+ will encourage us to better improve the product."
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/rtb_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:stepSize="0.5"
+        android:numStars="5"
+        android:theme="@style/RatingBar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip">
+
+        <ImageButton
+            android:id="@+id/imb_cancel_rate"
+            android:layout_width="72dip"
+            android:layout_height="72dip"
+            android:layout_marginEnd="4dip"
+            android:layout_marginRight="4dip"
+            android:background="@drawable/item_imb_dialog"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_cancel" />
+
+        <ImageButton
+            android:id="@+id/imb_rate"
+            android:layout_width="72dip"
+            android:layout_height="72dip"
+            android:layout_marginLeft="5dip"
+            android:layout_marginStart="5dip"
+            android:background="@drawable/item_imb_dialog"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_rate" />
+    </LinearLayout>
+</LinearLayout>

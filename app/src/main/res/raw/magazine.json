@@ -1,0 +1,191 @@
+{
+  "magazine": [
+    {
+      "id": "mz1",
+      "name": "pic_joke_magazine_1",
+      "width": "1232",
+      "height": "1808",
+      "rect": {
+        "left": "0",
+        "top": "0",
+        "right": "1232",
+        "bottom": "1808"
+      },
+      "rotate": "0",
+      "aspectRatioX": "9",
+      "aspectRatioY": "14",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz2",
+      "name": "pic_joke_magazine_2",
+      "width": "1123",
+      "height": "1629",
+      "rect": {
+        "left": "0",
+        "top": "0",
+        "right": "1123",
+        "bottom": "1629"
+      },
+      "rotate": "0",
+      "aspectRatioX": "9",
+      "aspectRatioY": "14",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz3",
+      "name": "pic_joke_magazine_3",
+      "width": "1000",
+      "height": "1000",
+      "rect": {
+        "left": "245",
+        "top": "508",
+        "right": "779",
+        "bottom": "932"
+      },
+      "rotate": "0",
+      "aspectRatioX": "4",
+      "aspectRatioY": "3",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz4",
+      "name": "pic_joke_magazine_4",
+      "width": "1000",
+      "height": "1404",
+      "rect": {
+        "left": "0",
+        "top": "198",
+        "right": "1000",
+        "bottom": "908"
+      },
+      "rotate": "0",
+      "aspectRatioX": "4",
+      "aspectRatioY": "3",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz5",
+      "name": "pic_joke_magazine_5",
+      "width": "1124",
+      "height": "1620",
+      "rect": {
+        "left": "0",
+        "top": "0",
+        "right": "1124",
+        "bottom": "1620"
+      },
+      "rotate": "0",
+      "aspectRatioX": "9",
+      "aspectRatioY": "13",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz6",
+      "name": "pic_joke_magazine_6",
+      "width": "1000",
+      "height": "1457",
+      "rect": {
+        "left": "0",
+        "top": "0",
+        "right": "1000",
+        "bottom": "1457"
+      },
+      "rotate": "0",
+      "aspectRatioX": "9",
+      "aspectRatioY": "10",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz7",
+      "name": "pic_joke_magazine_7",
+      "width": "1062",
+      "height": "1508",
+      "rect": {
+        "left": "0",
+        "top": "290",
+        "right": "1062",
+        "bottom": "1406"
+      },
+      "rotate": "0",
+      "aspectRatioX": "3",
+      "aspectRatioY": "4",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz8",
+      "name": "pic_joke_magazine_8",
+      "width": "1068",
+      "height": "1536",
+      "rect": {
+        "left": "0",
+        "top": "0",
+        "right": "1068",
+        "bottom": "1536"
+      },
+      "rotate": "0",
+      "aspectRatioX": "3",
+      "aspectRatioY": "4",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz9",
+      "name": "pic_joke_magazine_9",
+      "width": "1068",
+      "height": "1506",
+      "rect": {
+        "left": "0",
+        "top": "0",
+        "right": "1068",
+        "bottom": "1506"
+      },
+      "rotate": "0",
+      "aspectRatioX": "5",
+      "aspectRatioY": "7",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz10",
+      "name": "pic_joke_magazine_10",
+      "width": "1068",
+      "height": "1446",
+      "rect": {
+        "left": "96",
+        "top": "313",
+        "right": "544",
+        "bottom": "1011"
+      },
+      "rotate": "0",
+      "aspectRatioX": "9",
+      "aspectRatioY": "15",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "mz11",
+      "name": "pic_joke_magazine_11",
+      "width": "1068",
+      "height": "1512",
+      "rect": {
+        "left": "0",
+        "top": "364",
+        "right": "1068",
+        "bottom": "1438"
+      },
+      "rotate": "0",
+      "aspectRatioX": "10",
+      "aspectRatioY": "11",
+      "textureName": "null",
+      "saturation": "1.0"
+    }
+  ]
+}

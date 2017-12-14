@@ -1,0 +1,208 @@
+{
+  "happy_birthday": [
+    {
+      "id": "hb1",
+      "name": "pic_joke_happy_birthday_1",
+      "width": "1000",
+      "height": "1000",
+      "rect": {
+        "left": "43",
+        "top": "410",
+        "right": "955",
+        "bottom": "949"
+      },
+      "rotate": "0",
+      "aspectRatioX": "2",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb2",
+      "name": "pic_joke_happy_birthday_2",
+      "width": "1000",
+      "height": "1000",
+      "rect": {
+        "left": "205",
+        "top": "494",
+        "right": "799",
+        "bottom": "939"
+      },
+      "rotate": "0",
+      "aspectRatioX": "3",
+      "aspectRatioY": "2",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb3",
+      "name": "pic_joke_happy_birthday_3",
+      "width": "1500",
+      "height": "1000",
+      "rect": {
+        "left": "312",
+        "top": "202",
+        "right": "1192",
+        "bottom": "799"
+      },
+      "rotate": "0",
+      "aspectRatioX": "4",
+      "aspectRatioY": "3",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb4",
+      "name": "pic_joke_happy_birthday_4",
+      "width": "1084",
+      "height": "1080",
+      "rect": {
+        "left": "78",
+        "top": "180",
+        "right": "1005",
+        "bottom": "896"
+      },
+      "rotate": "0",
+      "aspectRatioX": "4",
+      "aspectRatioY": "3",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb5",
+      "name": "pic_joke_happy_birthday_5",
+      "width": "1000",
+      "height": "1000",
+      "rect": {
+        "left": "121",
+        "top": "325",
+        "right": "880",
+        "bottom": "973"
+      },
+      "rotate": "0",
+      "aspectRatioX": "6",
+      "aspectRatioY": "5",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb6",
+      "name": "pic_joke_happy_birthday_6",
+      "width": "1500",
+      "height": "1000",
+      "rect": {
+        "left": "368",
+        "top": "290",
+        "right": "1140",
+        "bottom": "794"
+      },
+      "rotate": "0",
+      "aspectRatioX": "4",
+      "aspectRatioY": "3",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb7",
+      "name": "pic_joke_happy_birthday_7",
+      "width": "1720",
+      "height": "1080",
+      "rect": {
+        "left": "838",
+        "top": "358",
+        "right": "1442",
+        "bottom": "912"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb8",
+      "name": "pic_joke_happy_birthday_8",
+      "width": "1500",
+      "height": "1080",
+      "rect": {
+        "left": "0",
+        "top": "175",
+        "right": "1200",
+        "bottom": "1080"
+      },
+      "rotate": "-45",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb9",
+      "name": "pic_joke_happy_birthday_9",
+      "width": "1500",
+      "height": "1000",
+      "rect": {
+        "left": "730",
+        "top": "500",
+        "right": "955",
+        "bottom": "734"
+      },
+      "rotate": "-17.38",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb10",
+      "name": "pic_joke_happy_birthday_10",
+      "width": "1000",
+      "height": "1500",
+      "rect": {
+        "left": "280",
+        "top": "931",
+        "right": "658",
+        "bottom": "1384"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb11",
+      "name": "pic_joke_happy_birthday_11",
+      "width": "1500",
+      "height": "1000",
+      "rect": {
+        "left": "753",
+        "top": "211",
+        "right": "1114",
+        "bottom": "565"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "hb12",
+      "name": "pic_joke_happy_birthday_12",
+      "width": "1000",
+      "height": "1000",
+      "rect": {
+        "left": "161",
+        "top": "389",
+        "right": "615",
+        "bottom": "769"
+      },
+      "rotate": "15",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    }
+  ]
+}

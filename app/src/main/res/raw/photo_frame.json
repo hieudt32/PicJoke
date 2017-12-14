@@ -1,0 +1,498 @@
+{
+  "photo_frame": [
+    {
+      "id": "pf1",
+      "name": "pic_joke_photo_frame_1",
+      "width": "1080",
+      "height": "1080",
+      "rect": {
+        "left": "404",
+        "top": "302",
+        "right": "934",
+        "bottom": "1002"
+      },
+      "rotate": "0",
+      "aspectRatioX": "3",
+      "aspectRatioY": "4",
+      "textureName": "texture_photo_frame_1",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf2",
+      "name": "pic_joke_photo_frame_2",
+      "width": "1080",
+      "height": "720",
+      "rect": {
+        "left": "294",
+        "top": "128",
+        "right": "615",
+        "bottom": "652"
+      },
+      "rotate": "1.34",
+      "aspectRatioX": "5",
+      "aspectRatioY": "7",
+      "textureName": "texture_photo_frame_2",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf3",
+      "name": "pic_joke_photo_frame_3",
+      "width": "720",
+      "height": "988",
+      "rect": {
+        "left": "198",
+        "top": "248",
+        "right": "558",
+        "bottom": "800"
+      },
+      "rotate": "-1.61",
+      "aspectRatioX": "5",
+      "aspectRatioY": "7",
+      "textureName": "texture_photo_frame_3",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf4",
+      "name": "pic_joke_photo_frame_4",
+      "width": "720",
+      "height": "972",
+      "rect": {
+        "left": "224",
+        "top": "378",
+        "right": "634",
+        "bottom": "922"
+      },
+      "rotate": "0",
+      "aspectRatioX": "5",
+      "aspectRatioY": "7",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf5",
+      "name": "pic_joke_photo_frame_5",
+      "width": "1080",
+      "height": "720",
+      "rect": {
+        "left": "357",
+        "top": "157",
+        "right": "769",
+        "bottom": "487"
+      },
+      "rotate": "-0.5",
+      "aspectRatioX": "9",
+      "aspectRatioY": "8",
+      "textureName": "texture_photo_frame_5",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf6",
+      "name": "pic_joke_photo_frame_6",
+      "width": "1080",
+      "height": "792",
+      "rect": {
+        "left": "177",
+        "top": "447",
+        "right": "540",
+        "bottom": "727"
+      },
+      "rotate": "0.5",
+      "aspectRatioX": "6",
+      "aspectRatioY": "5",
+      "textureName": "texture_photo_frame_6",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf7",
+      "name": "pic_joke_photo_frame_7",
+      "width": "1080",
+      "height": "720",
+      "rect": {
+        "left": "396",
+        "top": "240",
+        "right": "728",
+        "bottom": "502"
+      },
+      "rotate": "10",
+      "aspectRatioX": "7",
+      "aspectRatioY": "6",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf8",
+      "name": "pic_joke_photo_frame_8",
+      "width": "1080",
+      "height": "771",
+      "rect": {
+        "left": "223",
+        "top": "85",
+        "right": "1056",
+        "bottom": "688"
+      },
+      "rotate": "0",
+      "aspectRatioX": "5",
+      "aspectRatioY": "4",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf9",
+      "name": "pic_joke_photo_frame_9",
+      "width": "1080",
+      "height": "720",
+      "rect": {
+        "left": "159",
+        "top": "0",
+        "right": "807",
+        "bottom": "433"
+      },
+      "rotate": "0",
+      "aspectRatioX": "5",
+      "aspectRatioY": "4",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf10",
+      "name": "pic_joke_photo_frame_10",
+      "width": "1080",
+      "height": "843",
+      "rect": {
+        "left": "322",
+        "top": "70",
+        "right": "756",
+        "bottom": "765"
+      },
+      "rotate": "9.5",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf11",
+      "name": "pic_joke_photo_frame_11",
+      "width": "1080",
+      "height": "864",
+      "rect": {
+        "left": "477",
+        "top": "140",
+        "right": "913",
+        "bottom": "580"
+      },
+      "rotate": "-11.6",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "texture_photo_frame_11",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf12",
+      "name": "pic_joke_photo_frame_12",
+      "width": "1080",
+      "height": "720",
+      "rect": {
+        "left": "396",
+        "top": "36",
+        "right": "750",
+        "bottom": "345"
+      },
+      "rotate": "0",
+      "aspectRatioX": "13",
+      "aspectRatioY": "12",
+      "textureName": "texture_photo_frame_12",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf13",
+      "name": "pic_joke_photo_frame_13",
+      "width": "1080",
+      "height": "637",
+      "rect": {
+        "left": "350",
+        "top": "128",
+        "right": "727",
+        "bottom": "412"
+      },
+      "rotate": "-0.5",
+      "aspectRatioX": "6",
+      "aspectRatioY": "5",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf14",
+      "name": "pic_joke_photo_frame_14",
+      "width": "1080",
+      "height": "607",
+      "rect": {
+        "left": "268",
+        "top": "18",
+        "right": "520",
+        "bottom": "407"
+      },
+      "rotate": "0",
+      "aspectRatioX": "5",
+      "aspectRatioY": "8",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf15",
+      "name": "pic_joke_photo_frame_15",
+      "width": "1080",
+      "height": "771",
+      "rect": {
+        "left": "340",
+        "top": "250",
+        "right": "616",
+        "bottom": "478"
+      },
+      "rotate": "2",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf16",
+      "name": "pic_joke_photo_frame_16",
+      "width": "720",
+      "height": "972",
+      "rect": {
+        "left": "200",
+        "top": "428",
+        "right": "520",
+        "bottom": "750"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf17",
+      "name": "pic_joke_photo_frame_17",
+      "width": "1080",
+      "height": "718",
+      "rect": {
+        "left": "282",
+        "top": "286",
+        "right": "541",
+        "bottom": "544"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "texture_photo_frame_17",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf18",
+      "name": "pic_joke_photo_frame_18",
+      "width": "787",
+      "height": "1080",
+      "rect": {
+        "left": "31",
+        "top": "288",
+        "right": "370",
+        "bottom": "792"
+      },
+      "rotate": "1.98",
+      "aspectRatioX": "5",
+      "aspectRatioY": "8",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf19",
+      "name": "pic_joke_photo_frame_19",
+      "width": "1080",
+      "height": "841",
+      "rect": {
+        "left": "165",
+        "top": "270",
+        "right": "760",
+        "bottom": "820"
+      },
+      "rotate": "27.9",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf20",
+      "name": "pic_joke_photo_frame_20",
+      "width": "626",
+      "height": "416",
+      "rect": {
+        "left": "126",
+        "top": "82",
+        "right": "542",
+        "bottom": "416"
+      },
+      "rotate": "28.2",
+      "aspectRatioX": "9",
+      "aspectRatioY": "8",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf21",
+      "name": "pic_joke_photo_frame_21",
+      "width": "626",
+      "height": "416",
+      "rect": {
+        "left": "94",
+        "top": "26",
+        "right": "575",
+        "bottom": "380"
+      },
+      "rotate": "-18.1",
+      "aspectRatioX": "6",
+      "aspectRatioY": "5",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf22",
+      "name": "pic_joke_photo_frame_22",
+      "width": "626",
+      "height": "419",
+      "rect": {
+        "left": "300",
+        "top": "116",
+        "right": "480",
+        "bottom": "358"
+      },
+      "rotate": "2",
+      "aspectRatioX": "5",
+      "aspectRatioY": "7",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf23",
+      "name": "pic_joke_photo_frame_23",
+      "width": "626",
+      "height": "417",
+      "rect": {
+        "left": "180",
+        "top": "140",
+        "right": "270",
+        "bottom": "280"
+      },
+      "rotate": "0",
+      "aspectRatioX": "3",
+      "aspectRatioY": "4",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf24",
+      "name": "pic_joke_photo_frame_24",
+      "width": "626",
+      "height": "414",
+      "rect": {
+        "left": "138",
+        "top": "72",
+        "right": "488",
+        "bottom": "322"
+      },
+      "rotate": "-1",
+      "aspectRatioX": "4",
+      "aspectRatioY": "3",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf25",
+      "name": "pic_joke_photo_frame_25",
+      "width": "626",
+      "height": "626",
+      "rect": {
+        "left": "352",
+        "top": "136",
+        "right": "536",
+        "bottom": "375"
+      },
+      "rotate": "0",
+      "aspectRatioX": "3",
+      "aspectRatioY": "4",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf26",
+      "name": "pic_joke_photo_frame_26",
+      "width": "626",
+      "height": "419",
+      "rect": {
+        "left": "100",
+        "top": "68",
+        "right": "456",
+        "bottom": "416"
+      },
+      "rotate": "-25.3",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf27",
+      "name": "pic_joke_photo_frame_27",
+      "width": "404",
+      "height": "417",
+      "rect": {
+        "left": "128",
+        "top": "86",
+        "right": "353",
+        "bottom": "263"
+      },
+      "rotate": "0",
+      "aspectRatioX": "6",
+      "aspectRatioY": "5",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf28",
+      "name": "pic_joke_photo_frame_28",
+      "width": "413",
+      "height": "533",
+      "rect": {
+        "left": "116",
+        "top": "274",
+        "right": "300",
+        "bottom": "394"
+      },
+      "rotate": "-2",
+      "aspectRatioX": "5",
+      "aspectRatioY": "3",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "pf29",
+      "name": "pic_joke_photo_frame_29",
+      "width": "626",
+      "height": "419",
+      "rect": {
+        "left": "95",
+        "top": "43",
+        "right": "434",
+        "bottom": "378"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    }
+  ]
+}
+      

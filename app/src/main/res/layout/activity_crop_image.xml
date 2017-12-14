@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_crop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_dark"
+    tools:context="funia.maker.pip.picjoke.scopic.activity.CropImageActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_tool_crop"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/imgRotateLeft"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/item_bg_selector_black"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/des_rotate_left"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_rotate_left" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/imgFlipHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/item_bg_selector_black"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/des_flip_vertical"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_flip_vertical" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/imgFlipVertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/item_bg_selector_black"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/des_flip_horizontal"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_flip_horizontal" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/imgRotateRight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/item_bg_selector_black"
+                android:clickable="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/des_rotate_right"
+                    android:padding="7dp"
+                    android:src="@drawable/ic_rotate_right" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_top_crop_tool"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@id/ll_tool_crop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/rl_top_crop_tool">
+
+        <funia.maker.pip.picjoke.scopic.cropper.CropImageView
+            android:id="@+id/cropImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/imb_done_crop"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="61dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/item_imb_main"
+        android:contentDescription="@string/des_done"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_done" />
+
+    <ImageButton
+        android:id="@+id/imb_back_crop"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="62dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/imb_done_crop"
+        android:layout_toStartOf="@id/imb_done_crop"
+        android:background="@drawable/item_imb_main"
+        android:contentDescription="@string/des_close"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_hide_template" />
+
+    <FrameLayout
+        android:id="@+id/frLoading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="invisible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:background="@android:color/black" />
+
+        <ImageView
+            android:id="@+id/imgLoading"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/des_imv_wait"
+            android:src="@drawable/ic_action_waiting" />
+    </FrameLayout>
+
+</RelativeLayout>

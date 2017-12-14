@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/pic_joke_white"
+                android:gravity="center">
+
+    <funia.maker.pip.picjoke.scopic.view.TextViewRegular
+        android:id="@+id/tv_title_rate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="RATE THIS APP"
+        android:textColor="@android:color/black"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/llRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title_rate"
+        android:orientation="vertical">
+
+        <funia.maker.pip.picjoke.scopic.view.TextViewRegular
+            android:id="@+id/text_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="Dear user, your 5 stars ratings and g+ will encourage us to better improve the product."
+            android:textColor="#212121"
+            />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:max="5"
+            android:maxHeight="70dp"
+            android:minHeight="60dp"
+            android:numStars="5"
+            android:stepSize="1"
+            style="@style/foodRatingBar"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/llRate"
+        android:gravity="center"
+        android:weightSum="0"
+        android:visibility="gone">
+        <funia.maker.pip.picjoke.scopic.view.TextViewRegular
+            android:id="@+id/tvDontShow"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:clickable="true"
+            android:background="@color/pic_joke_white"
+            android:text="DON'T SHOW AGAIN"
+            android:textColor="@color/pic_joke_black"
+            android:textStyle="bold"/>
+        <funia.maker.pip.picjoke.scopic.view.TextViewRegular
+            android:id="@+id/tvOK"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:background="@color/pic_joke_black"
+            android:gravity="center"
+            android:text="LATER"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>

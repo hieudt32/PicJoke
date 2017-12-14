@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <funia.maker.pip.picjoke.scopic.view.GardeTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/title_dialog"
+        android:textColor="@color/pic_joke_white"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imbAlbum"
+            android:layout_width="96dip"
+            android:layout_height="96dip"
+            android:layout_marginEnd="4dip"
+            android:layout_marginRight="4dip"
+            android:background="@drawable/item_imb_dialog"
+            android:contentDescription="@string/des_album"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_album" />
+
+        <ImageButton
+            android:id="@+id/imbCamera"
+            android:layout_width="96dip"
+            android:layout_height="96dip"
+            android:layout_marginLeft="4dip"
+            android:layout_marginStart="4dip"
+            android:background="@drawable/item_imb_dialog"
+            android:contentDescription="@string/des_camera"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_camera" />
+    </LinearLayout>
+
+</LinearLayout>

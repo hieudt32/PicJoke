@@ -1,0 +1,175 @@
+{
+  "fruit": [
+    {
+      "id": "fr1",
+      "name": "pic_joke_fruit_1",
+      "width": "1000",
+      "height": "1000",
+      "rect": {
+        "left": "88",
+        "top": "0",
+        "right": "1000",
+        "bottom": "1000"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "fr2",
+      "name": "pic_joke_fruit_2",
+      "width": "1500",
+      "height": "1000",
+      "rect": {
+        "left": "360",
+        "top": "262",
+        "right": "1080",
+        "bottom": "886"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "fr3",
+      "name": "pic_joke_fruit_3",
+      "width": "1500",
+      "height": "1000",
+      "rect": {
+        "left": "409",
+        "top": "130",
+        "right": "1084",
+        "bottom": "814"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "fr4",
+      "name": "pic_joke_fruit_4",
+      "width": "1000",
+      "height": "1367",
+      "rect": {
+        "left": "142",
+        "top": "456",
+        "right": "824",
+        "bottom": "1154"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "fr5",
+      "name": "pic_joke_fruit_5",
+      "width": "1500",
+      "height": "1000",
+      "rect": {
+        "left": "190",
+        "top": "0",
+        "right": "1500",
+        "bottom": "1000"
+      },
+      "rotate": "0",
+      "aspectRatioX": "4",
+      "aspectRatioY": "3",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "fr6",
+      "name": "pic_joke_fruit_6",
+      "width": "971",
+      "height": "1378",
+      "rect": {
+        "left": "0",
+        "top": "0",
+        "right": "970",
+        "bottom": "1376"
+      },
+      "rotate": "0",
+      "aspectRatioX": "3",
+      "aspectRatioY": "4",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "fr7",
+      "name": "pic_joke_fruit_7",
+      "width": "1000",
+      "height": "1000",
+      "rect": {
+        "left": "347",
+        "top": "289",
+        "right": "713",
+        "bottom": "632"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "fr8",
+      "name": "pic_joke_fruit_8",
+      "width": "1000",
+      "height": "1386",
+      "rect": {
+        "left": "80",
+        "top": "580",
+        "right": "952",
+        "bottom": "1440"
+      },
+      "rotate": "0",
+      "aspectRatioX": "1",
+      "aspectRatioY": "1",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "fr9",
+      "name": "pic_joke_fruit_9",
+      "width": "1500",
+      "height": "1000",
+      "rect": {
+        "left": "250",
+        "top": "125",
+        "right": "1320",
+        "bottom": "980"
+      },
+      "rotate": "-10",
+      "aspectRatioX": "4",
+      "aspectRatioY": "3",
+      "textureName": "null",
+      "saturation": "1.0"
+    },
+    {
+      "id": "fr10",
+      "name": "pic_joke_fruit_10",
+      "width": "1000",
+      "height": "1194",
+      "rect": {
+        "left": "238",
+        "top": "406",
+        "right": "697",
+        "bottom": "997"
+      },
+      "rotate": "0",
+      "aspectRatioX": "3",
+      "aspectRatioY": "4",
+      "textureName": "null",
+      "saturation": "1.0"
+    }
+  ]
+}
+

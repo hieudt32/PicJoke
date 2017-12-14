@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="250dip"
+        android:layout_height="45dip"
+        android:text="Purchase\n(Remove Ads &amp; Watermark)"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:background="@color/pic_joke_blue"/>
+    <View
+        android:layout_width="250dip"
+        android:layout_height="1dip"
+        android:background="@color/pic_joke_white"/>
+    <Button
+        android:id="@+id/imbUnlockCat"
+        android:layout_width="250dip"
+        android:layout_height="45dip"
+        android:text=""
+        android:background="@color/pic_joke_blue"/>
+    <View
+        android:layout_width="250dip"
+        android:layout_height="1dip"
+        android:background="@color/pic_joke_white"/>
+    <Button
+        android:id="@+id/imbUnlockAll"
+        android:layout_width="250dip"
+        android:layout_height="45dip"
+        android:text="Unlock all (~ $3.99)"
+        android:background="@color/pic_joke_blue"/>
+</LinearLayout>
